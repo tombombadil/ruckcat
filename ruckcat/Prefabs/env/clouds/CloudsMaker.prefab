@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4017566998726184011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017566998726184010}
+  - component: {fileID: 4017566998726184009}
+  m_Layer: 0
+  m_Name: left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017566998726184010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017566998726184011}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -60, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4017566999187858440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4017566998726184009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017566998726184011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba21d2f219e71b4086fed01a38f9cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsGameStarted: 0
+  EventGameStatus:
+    m_PersistentCalls:
+      m_Calls: []
+  Levels:
+  - Level: 0
+    List:
+    - InsertType: 1
+      Count: 20
+      StartIndex: 0
+      PrefabsLinear: []
+      PrefabsRandom:
+      - {fileID: 5192221601983950427, guid: 6a2d9c58c05b78144a0faad735c1f501, type: 3}
+      - {fileID: 5192221601983950427, guid: ec3ffb3993c89434ca600e3f42b2ebf7, type: 3}
+      - {fileID: 5192221601983950427, guid: 4bd94777b4cf71445a143a667d123c2b, type: 3}
+      - {fileID: 5192221601983950427, guid: 61bc9858fab2f6b4ca1dcc10345f6879, type: 3}
+      PrefabEnd: {fileID: 0}
+      LinearRepeat: 1
+      SpawnDirection: {x: 0, y: 0, z: 1}
+      SpaceMin: {x: -100, y: 0, z: 0}
+      SpaceMax: {x: 70, y: 0, z: 15}
+      ReferenceForLimit: {fileID: 0}
+      Limits: {x: 0, y: 0, z: 0}
+--- !u!1 &4017566999187858442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017566999187858440}
+  m_Layer: 0
+  m_Name: CloudsMaker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017566999187858440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017566999187858442}
+  m_LocalRotation: {x: 0.023097351, y: 0, z: 0, w: 0.99973327}
+  m_LocalPosition: {x: 0, y: 60, z: 65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4017566998726184010}
+  - {fileID: 4017566999336690288}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.647, y: 0, z: 0}
+--- !u!1 &4017566999336690289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017566999336690288}
+  - component: {fileID: 4017566999336690303}
+  m_Layer: 0
+  m_Name: right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4017566999336690288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017566999336690289}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 60, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4017566999187858440}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4017566999336690303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4017566999336690289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba21d2f219e71b4086fed01a38f9cd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsGameStarted: 0
+  EventGameStatus:
+    m_PersistentCalls:
+      m_Calls: []
+  Levels:
+  - Level: 0
+    List:
+    - InsertType: 1
+      Count: 20
+      StartIndex: 0
+      PrefabsLinear: []
+      PrefabsRandom:
+      - {fileID: 5192221601983950427, guid: 6a2d9c58c05b78144a0faad735c1f501, type: 3}
+      - {fileID: 5192221601983950427, guid: ec3ffb3993c89434ca600e3f42b2ebf7, type: 3}
+      - {fileID: 5192221601983950427, guid: 4bd94777b4cf71445a143a667d123c2b, type: 3}
+      - {fileID: 5192221601983950427, guid: 61bc9858fab2f6b4ca1dcc10345f6879, type: 3}
+      PrefabEnd: {fileID: 0}
+      LinearRepeat: 1
+      SpawnDirection: {x: 0, y: 0, z: 1}
+      SpaceMin: {x: -70, y: 0, z: 0}
+      SpaceMax: {x: 100, y: 0, z: 15}
+      ReferenceForLimit: {fileID: 0}
+      Limits: {x: 0, y: 0, z: 0}
